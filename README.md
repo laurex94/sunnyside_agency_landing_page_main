@@ -1,4 +1,4 @@
-# Ping coming soon page
+# Sunnyside Agency Landing_Page Main
 Esta es la solución a [Sunnyside agency landing page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/sunnyside-agency-landing-page-7yVs3B6ef). 
 
 ## Tabla de Contenidos
