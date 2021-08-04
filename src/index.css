@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Barlow-regular';
+    src: url('./assets/fonts/Barlow-Regular.ttf') format( 'truetype');
+}
+
+@font-face {
+    font-family: 'Barlow';
+    src: url('./assets/fonts/Barlow-SemiBold.ttf') format( 'truetype');
+}
+
+@font-face {
+    font-family: 'FrauncesBold';
+    font-weight: 700;
+    src: url('./assets/fonts/Fraunces_9pt-Bold.ttf') format('truetype');
+}
+
+.bg-imagen-phone {
+    background-image: url('./assets/mobile/image-header.jpg');
+}
+
+@media  (min-width: 768px) {
+    .md\:bg-imagen-desktop {
+        background-image: url('./assets/desktop/image-header.jpg');
+    }
+}
